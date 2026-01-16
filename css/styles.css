@@ -17,7 +17,7 @@ a {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.5px;
+        line-height: 1.07;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
@@ -28,9 +28,10 @@ a {
 }
 
 .hero h1 {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.25;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
@@ -44,10 +45,13 @@ a {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4d5ae5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
+.hero-btn:hover {
+    background-color: #404bbf;
+}
 
 .team {
     background: #f4f4fd;
@@ -61,7 +65,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.5px;
+    line-height: 1.07;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -69,14 +73,131 @@ a {
 
 .page-footer {
     background-color: #2E2F42;
-    color: #FFFFFF;
     padding: 40px 0;
 }
 
-.portfolio h2 {
-    text-align: center;
+.page-footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
-.team h2 {
+.team ul li h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+}
+
+.team ul li h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team ul li p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.team ul li {
+    background-color: #fff;
+}
+
+nav a {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #404bbf;
+} 
+
+address a {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+address a:hover {
+    color: #404bbf;
+}
+
+.features h2 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.features h3 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.features p {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.portfolio h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio ul li h3 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.portfolio ul li p {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
