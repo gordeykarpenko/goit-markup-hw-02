@@ -49,7 +49,8 @@ a {
     cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404bbf;
 }
 
@@ -85,7 +86,7 @@ a {
     color: #f4f4fd;
 }
 
-.team ul li h2 {
+.team ul li {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -94,6 +95,15 @@ a {
     text-align: center;
     color: #2e2f42;
 }
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;}
 
 .team ul li h3 {
     font-family: "Roboto", sans-serif;
@@ -139,10 +149,12 @@ address a {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        font-style: normal;
         color: #434455;
 }
 
-address a:hover {
+address a:hover,
+address a:focus {
     color: #404bbf;
 }
 
